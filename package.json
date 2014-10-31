@@ -41,6 +41,7 @@
 		"events": "~1.0.2",
 		"clay-model": "0.0.4",
 		"clay-model-vfr": "0.0.11",
-		"numeral": "~1.5.3"
+		"numeral": "~1.5.3",
+		"clay-wizard":"0.0.1"
 	}
 }
