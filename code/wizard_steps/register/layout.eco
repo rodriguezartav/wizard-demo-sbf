@@ -1,0 +1,24 @@
+<div class="row">
+  
+  <div class="alert alert-danger lbl-error"></div>
+
+  <div class="col-md-5  ">
+    <h3>Lead Developer Login</h3>
+
+    <h4><strong>Secret Code</strong></h4>
+    <input type="text" data-name="txt_name" class="form-control txt_dev_code wizard_element"/>
+   
+    <a data-onclick="onBack"  data-values="1,'ok',false" class="btn btn-lg btn-info btn_login wizard_action">Login</a>
+
+  </div>
+
+
+  <div class="col-md-5 col-md-offset-2 ">
+    <h3>First Time?</h3>
+    <p>We are happy you are here!!!</p>
+
+    <a  data-onclick="onNext" data-values="" class="btn btn-lg btn-block btn-success btn_start wizard_action">Back</a>
+
+  </div>
+
+</div>
