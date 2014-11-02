@@ -1,0 +1,14 @@
+<div class="col-md-4">
+	<div class="item thumbnail" data-id="<%= @id %>" style="height: 100px; padding: 5px 10px;">
+
+		<h4 style="border-bottom: 1px solid #999;padding-bottom:2px;">
+			<%= @Name %>
+		</h4>
+
+		<p>
+			<%= @Description__c %>
+		</p>
+
+	</div>
+
+</div>

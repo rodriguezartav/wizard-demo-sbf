@@ -2,13 +2,40 @@
   
   <div class="alert alert-danger lbl-error"></div>
 
-    <div class="col-md-5 col-md-offset-5 ">
-      <h3>Welcome</h3>
+  	<div class="col-md-2">
+  		
+  		<img  class="img-responsive" src="{3vot}/images/icon-browserdev-red.png"/>
 
-      <a  data-onclick="onStart" data-values="1,'ok',false" class="btn btn-lg btn-block btn-success btn_start wizard_action">Start Here</a>
+  	</div>
+
+    <div class="col-md-5  ">
+      <h3>Build a Mac</h3>
+      
+      <p>This is a Demo Employee App</p> 
+
+      <p>If we want teams to perform better and adopt the latest technology to improve sales and service; We need better employee apps.</p>
+
+      <p>Building amazing apps like this one is Faster with Clay. 10X Faster than building regular Salesforce Apps.</p>
+
+      <p>It's build entirely in HTML5 by 3VOT Labs using CLAY. It took us 5 hours.</p>
+
+      <p>The process will walk your through selecting an account, the mac to build, addons and payment plan.</p>
+
+      <p>It's complicated, Payment Plans available depend on the Mac Selected.</p>
 
     </div>
 
+    <div class="clearfix"></div>
+
   </div>
+
+
+
+<div class="row">
+
+    <div class="col-md-5 col-md-offset-7 ">
+        <a  data-onclick="onStart" data-values="1,'ok',false" class="btn btn-lg btn-block btn-success btn_start wizard_action">Start Here <br/><small> 4 Steps to go</small> </a>
+  </div>
+
 
 </div>

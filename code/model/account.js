@@ -1,8 +1,10 @@
 var _3Model = require("clay-model")
 var Ajax = require("clay-model-vfr");
+Ajax.namespace = "threevot."
 
-Account = _3Model.setup("Account", ["Name","Type","AccountSource","AnnualRevenue","BillingState","Industry","Rating","Amount"]);
+var Account = _3Model.setup("Account", ["Name","Type","AccountSource","AnnualRevenue","BillingState","Industry","Rating","Amount"]);
 Account.ajax = Ajax;
+
 
 Account.filter ={}
 

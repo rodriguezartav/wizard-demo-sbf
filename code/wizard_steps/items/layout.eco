@@ -1,0 +1,9 @@
+
+  
+  <div class="alert alert-danger lbl-error"></div>
+
+    <h3>Select the Item you want to build:</h3>
+  
+<div data-onclick="onItemClick" class="wizard_action wizard_element row" data-name="item_list"></div>        
+
+  

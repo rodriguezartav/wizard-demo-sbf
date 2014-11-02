@@ -1,0 +1,55 @@
+<div class="menu">
+	
+
+	<div class="menu-leftbox">
+		
+
+		<div  class="menu-btn menu-btn__left btn_menu">
+			<i class="icon-hamburguer"></i>Menu
+		</div>
+
+	<div  class="menu-title">
+		<img class="img-responsive" style="max-width: 200px; margin-top:5px;" src="{3vot}/images/clay-logo.png"/>
+	</div>
+
+	</div>
+
+	
+		<div class="menu-rightbox">
+
+		<div  class="menu-btn btn_process">
+			<i class="icon-hamburguer"></i><span class="processIndexLabel">5</span> of 5
+		</div>
+
+		
+
+	</div>
+
+
+	<div class="processmenu menu_side">
+
+		<div class="layout_container">
+			
+
+
+		</div>
+
+		<a class="btn btn-warning btn-lg btn-block btn_back">Back</a>
+
+
+	</div>
+
+	<div class="submenu menu_side">
+
+		<h3>Wizard Menu</h3>
+
+		<a class="btn btn-primary btn-block btn_load_pending">Load Pending Wizards</a>
+			<ul class="list-group list-wizards">
+			
+			</ul>
+
+
+			
+	</div>
+
+</div>

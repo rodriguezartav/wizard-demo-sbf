@@ -1,3 +1,6 @@
+
+
+
 /*Fonts*/ 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 
@@ -17,7 +20,7 @@ body,html{
   margin: 0px;
   min-height: 100%;
 	
-	padding-top: 100px;
+	padding-top: 60px;
 
 	background: rgb(255,255,255); /* Old browsers */
 	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 51%, rgba(247,247,247,1) 51%, rgba(247,247,247,1) 51%); /* FF3.6+ */
@@ -34,6 +37,11 @@ body,html{
 	display: block;
 }
 
+._3vot ul {
+	padding: 5px 0;
+}
+
+
 p{
 	font-size: 14px;
 }
@@ -42,12 +50,117 @@ p{
 	padding: 20px;
 }
 
+.btn small{
+	font-size: 11px;
+}
+
+.menu{
+	position: fixed;;
+	top: 0px;
+	min-height: 50px;
+	left: 0px;
+	right: 0px;
+	z-index: 4;
+	background-color: rgba(244,244,244,0.8);
+}
+
+.menu_side{
+	   box-shadow: rgb(230, 230, 230) 0px 1px 3px 0px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    z-index: 6000;
+    perspective-origin: 705px 34px;
+    transform-origin: 705px 34px;
+    background: rgb(247, 247, 247) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(51, 51, 51);
+    border-right: 0px none rgb(51, 51, 51);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    border-left: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 14px/22.3999996185303px HelveticaNeue, Helvetica, Helvetica, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+		padding: 25px;
+		padding-top: 15px;
+		-webkit-transition: left 0.4s , right 0.5s; /* For Safari 3.1 to 6.0 */
+  	transition: left 0.4s , right 0.5s;	
+}
+
+.menu_side .list-group-item{
+	margin-left: 0px;
+	padding: 6px 6px;
+}
+
+.menu .submenu{
+	width: 300px;
+	bottom: 0px;
+	position: absolute;
+	top: 68px;
+	left: -300px;
+}
+
+.menu .submenu.active{
+	left: 0px;
+}
+
+
+.menu .processmenu{
+	width: 300px;
+	bottom: 0;
+	position: absolute;
+	top: 68px;
+	right: -300px;
+}
+
+.thumbnail{
+	padding: 5px 10px !important;
+	cursor: pointer;
+}
+
+.list-group-item{
+	cursor: pointer;
+}
+
+.list-group-item small{
+	font-size: 12px;
+	display: block;
+	line-height: 15px;
+	color: rgb(121,121,121);
+}
+
+.thumbnail:hover ,
+.list-group-item:hover {
+	border: 1px solid #428bca;
+}
+
+.thumbnail:hover{
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,.2);
+	box-shadow: 0 0 6px rgba(0,0,0,.2);
+}
+
+.menu .processmenu.active{
+	right: 0px;
+}
+
+.menu .processmenu small{
+	font-size: 12px;
+	display: block;
+	line-height: 15px;
+	color: rgb(121,121,121);
+}
+
+.menu .processmenu h4{
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	line-height: 16px;
+}
+
 /* General */ 
 
 .slide-container{
 	width: 100%;
 	position: relative;
 	overflow: hidden;
+	z-index: 2;
 
 }
 
@@ -55,6 +168,8 @@ p{
 	position: absolute;
 	left: 2500px;
 	width: 60%;
+	bottom: 0px;
+	overflow-y:scroll;
 	top: 0px;
 	-webkit-transition: left 0.4s , opacity 0.5s; /* For Safari 3.1 to 6.0 */
   transition: left 0.4s , opacity 0.5s;	
@@ -64,12 +179,19 @@ p{
 	box-shadow: 0 0 6px rgba(0,0,0,.2);
 
 	padding: 35px;
-
 }
 
 
 .padding-bottom-0{
 	padding-bottom: 0px !important;
+}
+
+.margin-bottom-10{
+	margin-bottom: 10px !important;
+}
+
+.margin-bottom-20{
+	margin-bottom: 20px !important;
 }
 
 .padding-top-0{
@@ -150,9 +272,6 @@ input{
 .text-list{
 	display: block;
 }
-	._3vot ul {
-		padding: 1em 0;
-	}
 
 	.text-list li{
 		font-size: 3em;

@@ -1,0 +1,4 @@
+<li class="list-group-item item" data-id="<%= @id %>">
+	<small><%= @Account__r.Name %></small>
+	<%= @Item__r.Name %>
+</li>

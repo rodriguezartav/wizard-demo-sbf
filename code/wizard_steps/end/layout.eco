@@ -1,0 +1,22 @@
+
+<div class="row">
+  
+  <div class="alert alert-danger lbl-error"></div>
+
+  <div class="col-md-2">
+    <img  class="img-responsive" src="{3vot}/images/icon-browserdev-red.png"/>
+  </div>
+
+  <div class="col-md-10  ">
+    <h3>You are done!</h3>
+    <p>Review your order and hit complete</p>
+
+  </div>
+
+  <div class="clearfix"></div>
+
+</div>
+
+  <hr/>
+
+<div data-name="process_layout_container" class="wizard_element row"></div>

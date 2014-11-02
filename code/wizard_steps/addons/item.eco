@@ -1,0 +1,10 @@
+<li class="item list-group-item" data-id="<%= @id %>" >
+
+		<%= @Name %>
+
+
+	<div class="pull-right">
+		<%= @Price__c %>
+	</div>
+
+</li>
